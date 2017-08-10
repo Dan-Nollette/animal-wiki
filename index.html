@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/jquery-3.2.1.js" type="text/javascript"></script>
+    <script src="js/scripts.js"></script>
+    <title></title>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Which animal would you like to learn about</h2>
+      <form id="animalForm">
+        <div class="radio">
+          <label>
+            <input type="radio" name="animal" value="turtle" checked>
+            Turtle
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="animal" value="snake">
+            Snake
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="animal" value="rabbit">
+            Rabbit
+          </label>
+        </div>
+        <button type="submit" class="btn btn-danger">Submit</button>
+      </form>
+      <div id="turtle" class="anim">
+        <p>
+          Turtles are reptiles of the order Testudines (or Chelonii[3]) characterised by a special bony or cartilaginous shell developed from their ribs and acting as a shield.[4] "Turtle" may refer to the order as a whole (American English) or to fresh-water and sea-dwelling testudines (British English).
+        </p>
+        <img src="img/turtle.jpg">
+      </div>
+      <div id="snake" class="anim">
+        <p>
+          Snakes are elongated, legless, carnivorous reptiles of the suborder Serpentes.[2] Like all squamates, snakes are ectothermic, amniote vertebrates covered in overlapping scales. Many species of snakes have skulls with several more joints than their lizard ancestors, enabling them to swallow prey much larger than their heads with their highly mobile jaws.
+        </p>
+        <img src="img/snake.jpg" alt="A fearsome cobra">
+      </div>
+      <div id="rabbit" class="anim">
+        <p>
+          Rabbits are small mammals in the family Leporidae of the order Lagomorpha, found in several parts of the world. There are eight different genera in the family classified as rabbits, including the European rabbit (Oryctolagus cuniculus), cottontail rabbits (genus Sylvilagus; 13 species), and the Amami rabbit (Pentalagus furnessi, an endangered species on Amami Ōshima, Japan).
+          <img src="img/bunny.jpg" alt="A fluffy rabbit">
+        </p>
+      </div>
+    </div>
+
+  </body>
+</html>
